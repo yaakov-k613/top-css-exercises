@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+/* The properties you need to add are:
+
+* Only the `p` elements that are descendants of the `div` element should have a yellow background, 
+red text, a font size of 20px, and center aligned.
+
+## Desired Outcome
+![desired outcome](./desired-outcome.png)
+
+
+### Self Check
+- Do the elements that contain the text "This should be styled" have the correct styles applied?
+- Do the elements that contain the text "This should be unstyled" have no styles applied? */
+.container .text {
+  background-color: hsl(60, 100%, 50%);
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
