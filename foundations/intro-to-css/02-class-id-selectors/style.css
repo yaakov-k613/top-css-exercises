@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+  background-color: #f17c7c; /* light red/pink background */
+  font-family: Verdana, DejaVu Sans, sans-serif; /* font stack */
+}
+
+#number2 {
+  color: #0000ff; /* blue text */
+  font-size: 36px; /* font size of 36px */
+}
+
+.adjust-font-size {
+  font-size: 24px; /* font size of 24px */
+}
+
+#number4 {
+  background-color: #a5eca5; /* light green background */
+  font-size: 24px; /* font size of 24px */
+  font-weight: bold; /* bold text */
+}
