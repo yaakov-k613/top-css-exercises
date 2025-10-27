@@ -1,3 +1,24 @@
+<!-- # A very common website feature
+
+The goal of this exercise is to recreate a section that is found on many informational websites.
+
+For this one you will need to edit the HTML a little bit too. We can't be making things _too_ easy for you. You'll want to add containers around the various elements so that you can flex them. Good luck!
+
+## Desired outcome
+
+![desired outcome](./desired-outcome.png)
+
+### Self Check
+
+- All items are centered on the page (horizontally, not vertically).
+- The title is centered on the page.
+- There is 32px between the title and the 'items.'
+- There is 52px between each item.
+- The items are arranged horizontally on the page.
+- The items are only 200px wide and the text wraps.
+- The item text is centered. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,19 +29,29 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="title">Information!</div>
+    <h1 class="title">Information!</h1>
+    <div class="items-container">
+      <div class="item">
+            <img src="./images/barberry.png" alt="barberry">
+            <div class="text">This is a type of plant. We love this one.</div>
+        </div>
+      <div class="item">
+        <img src="./images/chilli.png" alt="chili">
+        <div class="text">This is another type of plant. Isn't it nice?</div>
+      </div>
 
-    <img src="./images/barberry.png" alt="barberry">
-    <div class="text">This is a type of plant. We love this one.</div>
+      <div class="item">
+        <img src="./images/pepper.png" alt="pepper">
+        <div class="text">We have so many plants. Yay plants.</div>
+      </div>
 
-    <img src="./images/chilli.png" alt="chili">
-    <div class="text">This is another type of plant. Isn't it nice?</div>
+      <div class="item">
+        <img src="./images/saffron.png" alt="saffron">
+        <div class="text">I'm running out of things to say about plants.</div>
+      </div>
 
-    <img src="./images/pepper.png" alt="pepper">
-    <div class="text">We have so many plants. Yay plants.</div>
+    </div>
 
-    <img src="./images/saffron.png" alt="saffron">
-    <div class="text">I'm running out of things to say about plants.</div>
 
     <!-- disregard this section, it's here to give attribution to the creator of these icons -->
     <div class="footer">
