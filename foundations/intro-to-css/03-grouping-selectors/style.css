@@ -1,14 +1,15 @@
-.btn_yes {
-  background-color: black;
-  color: white;
+.btn_no, .btn_yes {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
 .btn_no {
   background-color: yellow;
-}   
-
-.btn_yes,
-.btn_no {
-  font-size: 28px;
-  font-family: Helvetica, "Times New Roman", sans-serif;
 }
+
+.btn_yes{
+  background-color: black;
+  color: white;
+}
+
+
