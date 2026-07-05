@@ -11,10 +11,13 @@ red text, a font size of 20px, and center aligned.
 ### Self Check
 - Do the elements that contain the text "This should be styled" have the correct styles applied?
 - Do the elements that contain the text "This should be unstyled" have no styles applied? */
-.container .text {
-  background-color: hsl(60, 100%, 50%);
+
+.container p{ 
+  background-color: yellow;
   color: red;
   font-size: 20px;
   text-align: center;
 }
+
+
 
